@@ -10,7 +10,7 @@ It is a fork from the forty (german vierzig) theme built by [MarcusVirg](ttps://
 
 See a Demo of the Theme: [Demo](https://vierzig-theme-demo.netlify.com/)
 
-See a Example Implementation of the Theme: [Demo Repository](https://vierzig-theme-demo.netlify.com/)
+See a Example Implementation of the Theme: [Demo Repository](https://github.com/ASVBPREAUBV/vierzig-theme-demo)
 
 
 ## Features
