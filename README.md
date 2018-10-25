@@ -1,10 +1,20 @@
-# Forty Theme
+# Vierzig Theme
 
-Forty theme is a multi page website built around a grid of image tiles that transition into its content pages. It is a ported theme built by [HTML5 UP](https://html5up.net/). This theme contains many styled elements and features a contact form. Built for blogs, businesses, or freelancers.
+Vierzig theme is a multi page website built around a grid of image tiles that transition into its content pages.
+It is a ported theme built by [HTML5 UP](https://html5up.net/).
+It is a fork from the forty (german vierzig) theme built by [MarcusVirg](ttps://github.com/MarcusVirg/forty)
+
+## Features
+
+- [ ] Netlify CMS plug-and-play available
+- 
 
 ![Forty Screenshot](https://github.com/MarcusVirg/forty/blob/master/images/screenshot.png?raw=true)
 
-For a demo go to [Forty Demo](https://html5up.net/uploads/demos/forty/).
+## Demo
+
+[Demo](https://vierzig-theme-demo.netlify.com/)
+[Admin Interface Demp](https://vierzig-theme-demo.netlify.com/admin)
 
 ## Installation
 
