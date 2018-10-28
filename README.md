@@ -1,8 +1,17 @@
 # Vierzig Theme
 
+[Demo](https://vierzig-theme-demo.netlify.com/)
+
 Vierzig theme is a multi page website built around a grid of image tiles that transition into its content pages.
 It is a ported theme built by [HTML5 UP](https://html5up.net/).
 It is a fork from the forty (german vierzig) theme built by [MarcusVirg](ttps://github.com/MarcusVirg/forty)
+
+## Demo 
+
+See a Demo of the Theme: [Demo](https://vierzig-theme-demo.netlify.com/)
+
+See a Example Implementation of the Theme: [Demo Repository](https://github.com/ASVBPREAUBV/vierzig-theme-demo)
+
 
 ## Features
 
