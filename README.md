@@ -7,7 +7,7 @@ It is a fork from the forty (german vierzig) theme built by [MarcusVirg](ttps://
 ## Features
 
 - [ ] Netlify CMS plug-and-play available
-- 
+- [ ] Theme working with one line of config
 
 ![Forty Screenshot](https://github.com/MarcusVirg/forty/blob/master/images/screenshot.png?raw=true)
 
@@ -21,7 +21,7 @@ It is a fork from the forty (german vierzig) theme built by [MarcusVirg](ttps://
 Create a new Hugo Site and inside the site folder run the following commands:
 
     $ cd themes
-    $ git clone https://github.com/MarcusVirg/forty
+    $ git clone https://github.com/ASVBPREAUBV/vierzig
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -30,11 +30,13 @@ To learn how to create a Hugo Site read the [official guide](//gohugo.io/overvie
 If you are using Netlify to host your hugo site, you will want to add it as a submodule instead of cloning:
 
     $ cd themes
-    $ git submodule add https://github.com/MarcusVirg/forty
+    $ git submodule add https://github.com/ASVBPREAUBV/vierzig
 
-This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule. See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
+This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule.
+See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
 
-If your javascript or css isn't rendering, check your BaseURL frontmatter in the `config.toml` file. This needs to be set to match the URL you are publishing to. i.e. if you are publishing to https://www.yourdomain.com your frontmatter should be `BaseURL = https://www.yourdomain.com`
+If your javascript or css isn't rendering, check your BaseURL in the `config.toml` file.
+i.e. if you are publishing to https://www.yourdomain.com your BaseURL should be `BaseURL = https://www.yourdomain.com`
 
 ## Using the theme
 
@@ -42,26 +44,18 @@ After cloning Forty or adding it as a submodule, there are a few other things yo
 
 ### Config File
 
-There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
+There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme.
+Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
 Here you can customize some of the text and content on the website.
 
-### Change background
-
-You can change the background by replacing the banner.jpg file with your own image in the folder forty/static/img. The image must be in jpg format and the filename must be called banner.jpg otherwise it will not work.
-
-### Create new project/blog
+### Create new project
 
 To create a new blog post, you can take advantage of archetypes and use the Hugo command:
 
     $ cd hugoProjectDirectory
-    $ hugo new blogs/myBlog.md
+    $ hugo new projects/newProject.md
 
-Replace `myBlog.md` with your own file name. You can also just copy the markdown files from forty/exampleSite/content/blogs
-
-### Contact form
-
-This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email. Visitors can send you up to 1,000 emails per month for free.
-You can set your email in the [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
+Replace `newProject.md` with your own file name. 
 
 ### Preview
 
@@ -88,3 +82,7 @@ Thanks to:
 
 - AJ from [HTML5 UP](https://html5up.net/) for creating the theme
 - [Bjørn Erik Pedersen](https://github.com/bep), [Steve Francia](//github.com/spf13), [digitalcraftsman](//github.com/digitalcraftsman), and others for creating and maintaining Hugo.
+
+## TODO
+
+- [ ] Move 
