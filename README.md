@@ -94,4 +94,7 @@ Thanks to:
 
 ## TODO
 
-- [ ] Move 
+- [ ] Find suitable dev-config
+- [ ] Remove JS
+- [ ] Make menu static
+- [ ] cut down on config
