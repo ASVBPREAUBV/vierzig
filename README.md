@@ -1,17 +1,18 @@
-# Forty Theme
+# Vierzig Theme Demo
 
-Forty theme is a multi page website built around a grid of image tiles that transition into its content pages. It is a ported theme built by [HTML5 UP](https://html5up.net/). This theme contains many styled elements and features a contact form. Built for blogs, businesses, or freelancers.
+[Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) a Hugo Theme
 
-![Forty Screenshot](https://github.com/MarcusVirg/forty/blob/master/images/screenshot.png?raw=true)
+[Demo](https://vierzig-theme-demo.netlify.com/) for the page
 
-For a demo go to [Forty Demo](https://html5up.net/uploads/demos/forty/).
+[Demo](https://vierzig-theme-demo.netlify.com/admin) for the Admin Interface
+
 
 ## Installation
 
 Create a new Hugo Site and inside the site folder run the following commands:
 
     $ cd themes
-    $ git clone https://github.com/MarcusVirg/forty
+    $ git clone https://github.com/ASVBPREAUBV/vierzig
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -20,7 +21,7 @@ To learn how to create a Hugo Site read the [official guide](//gohugo.io/overvie
 If you are using Netlify to host your hugo site, you will want to add it as a submodule instead of cloning:
 
     $ cd themes
-    $ git submodule add https://github.com/MarcusVirg/forty
+    $ git submodule add https://github.com/ASVBPREAUBV/vierzig
 
 This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule. See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
 
