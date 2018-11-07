@@ -1,36 +1,17 @@
-# Vierzig Theme
+# Forty Theme
 
-[Demo](https://vierzig-theme-demo.netlify.com/)
-
-Vierzig theme is a multi page website built around a grid of image tiles that transition into its content pages.
-It is a ported theme built by [HTML5 UP](https://html5up.net/).
-It is a fork from the forty (german vierzig) theme built by [MarcusVirg](ttps://github.com/MarcusVirg/forty)
-
-## Demo 
-
-See a Demo of the Theme: [Demo](https://vierzig-theme-demo.netlify.com/)
-
-See a Example Implementation of the Theme: [Demo Repository](https://github.com/ASVBPREAUBV/vierzig-theme-demo)
-
-
-## Features
-
-- [ ] Netlify CMS plug-and-play available
-- [ ] Theme working with one line of config
+Forty theme is a multi page website built around a grid of image tiles that transition into its content pages. It is a ported theme built by [HTML5 UP](https://html5up.net/). This theme contains many styled elements and features a contact form. Built for blogs, businesses, or freelancers.
 
 ![Forty Screenshot](https://github.com/MarcusVirg/forty/blob/master/images/screenshot.png?raw=true)
 
-## Demo
-
-[Demo](https://vierzig-theme-demo.netlify.com/)
-[Admin Interface Demp](https://vierzig-theme-demo.netlify.com/admin)
+For a demo go to [Forty Demo](https://html5up.net/uploads/demos/forty/).
 
 ## Installation
 
 Create a new Hugo Site and inside the site folder run the following commands:
 
     $ cd themes
-    $ git clone https://github.com/ASVBPREAUBV/vierzig
+    $ git clone https://github.com/MarcusVirg/forty
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -39,13 +20,11 @@ To learn how to create a Hugo Site read the [official guide](//gohugo.io/overvie
 If you are using Netlify to host your hugo site, you will want to add it as a submodule instead of cloning:
 
     $ cd themes
-    $ git submodule add https://github.com/ASVBPREAUBV/vierzig
+    $ git submodule add https://github.com/MarcusVirg/forty
 
-This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule.
-See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
+This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule. See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
 
-If your javascript or css isn't rendering, check your BaseURL in the `config.toml` file.
-i.e. if you are publishing to https://www.yourdomain.com your BaseURL should be `BaseURL = https://www.yourdomain.com`
+If your javascript or css isn't rendering, check your BaseURL frontmatter in the `config.toml` file. This needs to be set to match the URL you are publishing to. i.e. if you are publishing to https://www.yourdomain.com your frontmatter should be `BaseURL = https://www.yourdomain.com`
 
 ## Using the theme
 
@@ -53,18 +32,13 @@ After cloning Forty or adding it as a submodule, there are a few other things yo
 
 ### Config File
 
-There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme.
-Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
+There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
 Here you can customize some of the text and content on the website.
 
-### Create new project
+### Contact form
 
-To create a new blog post, you can take advantage of archetypes and use the Hugo command:
-
-    $ cd hugoProjectDirectory
-    $ hugo new projects/newProject.md
-
-Replace `newProject.md` with your own file name. 
+This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email. Visitors can send you up to 1,000 emails per month for free.
+You can set your email in the [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
 
 ### Preview
 
@@ -91,10 +65,3 @@ Thanks to:
 
 - AJ from [HTML5 UP](https://html5up.net/) for creating the theme
 - [Bjørn Erik Pedersen](https://github.com/bep), [Steve Francia](//github.com/spf13), [digitalcraftsman](//github.com/digitalcraftsman), and others for creating and maintaining Hugo.
-
-## TODO
-
-- [ ] Find suitable dev-config
-- [ ] Remove JS
-- [ ] Make menu static
-- [ ] cut down on config
