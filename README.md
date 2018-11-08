@@ -1,6 +1,6 @@
 # Vierzig Theme Demo
 
-[Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) a Hugo Theme
+A Demo Page for [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)
 
 [Demo](https://vierzig-theme-demo.netlify.com/) for the page
 
