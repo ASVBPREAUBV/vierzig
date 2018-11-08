@@ -16,7 +16,7 @@ Create a new Hugo Site and inside the site folder run the following commands:
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
-### Netlify
+### Installation with netlify for build and deployment
 
 If you are using Netlify to host your hugo site, you will want to add it as a submodule instead of cloning:
 
@@ -29,7 +29,7 @@ If your javascript or css isn't rendering, check your BaseURL frontmatter in the
 
 ## Using the theme
 
-After cloning Forty or adding it as a submodule, there are a few other things you should do:
+After cloning Vierzig or adding it as a submodule, there are a few other things you should do:
 
 ### Config File
 
