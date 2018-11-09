@@ -33,13 +33,14 @@ After cloning Vierzig or adding it as a submodule, there are a few other things 
 
 ### Config File
 
-There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
-Here you can customize some of the text and content on the website.
+No Config Params file is needed.
+
+TODO list all available params
 
 ### Contact form
 
-This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email. Visitors can send you up to 1,000 emails per month for free.
-You can set your email in the [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
+This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email.
+Visitors can send you up to 1,000 emails per month for free.
 
 ### Preview
 
@@ -63,6 +64,6 @@ For more information read the [License](//github.com/MarcusVirg/forty/blob/maste
 ## Acknowledgements
 
 Thanks to:
-
+- MarcusVirg from [theme forty](//github.com/MarcusVirg/forty) for creating the hugo theme
 - AJ from [HTML5 UP](https://html5up.net/) for creating the theme
 - [Bjørn Erik Pedersen](https://github.com/bep), [Steve Francia](//github.com/spf13), [digitalcraftsman](//github.com/digitalcraftsman), and others for creating and maintaining Hugo.
