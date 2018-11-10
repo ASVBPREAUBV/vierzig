@@ -9,7 +9,7 @@ A Demo Page for [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo
 
 ## Installation
 
-Create a new Hugo Site and inside the site folder run the following commands:
+Create a new Hugo Site and inside the site directory run the following commands:
 
     $ cd themes
     $ git clone https://github.com/ASVBPREAUBV/vierzig
@@ -42,15 +42,7 @@ TODO list all available params
 This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email.
 Visitors can send you up to 1,000 emails per month for free.
 
-### Preview
-
-You can see a preview of your site while developing it by running Hugo's built-in webserver.
-
-    $ hugo server -D
-
-Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser to see your site.
-
-`NOTE: In the command above -D loads content that is marked as a draft. You can switch content from draft to final by changing the frontmatter value of draft to false in the .md file for the content.`
+## You ca
 
 ## Contributing
 
@@ -59,7 +51,7 @@ Find a bug or want a new feature? Use the issue tracker or submit a pull request
 ## License
 
 This theme is released under the Creative Commons Attribution 3.0.
-For more information read the [License](//github.com/MarcusVirg/forty/blob/master/LICENSE.md).
+For more information read the [License](https://github.com/ASVBPREAUBV/vierzig/blob/master/LICENSE.md).
 
 ## Acknowledgements
 
