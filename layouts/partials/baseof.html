@@ -4,29 +4,23 @@
 {{ partial "header.html" . }}
 <body>
 
-{{ "<!-- Wrapper -->" | safeHTML }}
 <div id="wrapper">
 
     {{ partial "nav.html" . }}
 
     {{ partial "banner.html" . }}
 
-    {{ "<!-- Main -->" | safeHTML }}
     <div id="main">
 
-       {{block main}}
+        {{ block "main" . }}
 
     </div>
 
-    {{ "<!-- Contact -->" | safeHTML}}
     {{ if .Site.Params.Contact.enable }}
     {{ partial "contact.html" . }}
-    {{ end }}
 
-    {{ "<!-- Footer -->" | safeHTML}}
     {{ if .Site.Params.Footer.enable }}
     {{ partial "footer.html" . }}
-    {{ end }}
 
 </div>
 
