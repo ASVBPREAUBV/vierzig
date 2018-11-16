@@ -1,14 +1,13 @@
 {{ "<!-- Header -->" | safeHTML }}
-<section id="one" class="tiles">
-    {{ range .Site.Params.Tiles.showcase }}
+<section class="tiles">
     <article>
             <span class="image">
-                <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt=""/>
+                <!--img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt=""/-->
+                <img src="http://placekitten.com/200/300" alt=""/>
             </span>
         <header class="major">
             <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
-            <p>{{ .subtitle }}</p>
+            <p>{{ .Description }}</p>
         </header>
     </article>
-    {{ end }}
 </section>
