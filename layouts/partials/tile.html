@@ -2,11 +2,14 @@
 <section class="tiles">
     <article>
             <span class="image">
-                <!--img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt=""/-->
                 <img src="http://placekitten.com/200/300" alt=""/>
             </span>
         <header class="major">
-            <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
+            <h3>
+                <a href="" class="link">
+                    {{ .Title }}
+                </a>
+            </h3>
             <p>{{ .Description }}</p>
         </header>
     </article>
