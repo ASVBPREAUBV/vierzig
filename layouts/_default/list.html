@@ -1,9 +1,6 @@
-<html>
-{{ "<!-- Header -->" | safeHTML }}
-    {{ partial "header.html" . }}
+{{ define "main"}}
 
-    <body>
-
+<p> listView</p>
     {{ "<!-- LISTVIEW -->" | safeHTML }}
         <!--div id="wrapper">
 
@@ -55,5 +52,4 @@
 
         </div-->
 
-    </body>
-</html>
+{{end}}
