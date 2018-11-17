@@ -4,7 +4,7 @@ This Repo is the Demo Page for [Vierzig Theme](https://github.com/ASVBPREAUBV/vi
 
 View the live [Demo](https://vierzig-theme-demo.netlify.com/)
 
-Change the Content [here](https://vierzig-theme-demo.netlify.com/admin) in the Admin Interface
+Change the Content here in the [Admin Interface](https://vierzig-theme-demo.netlify.com/admin)
 
 
 ## Installation
