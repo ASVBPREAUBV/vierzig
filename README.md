@@ -1,8 +1,8 @@
-# Vierzig Theme Demo
+# Vierzig Theme
 
-This Repo is the [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)
+This Repo contains the [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)
 
-View the live [Demo](https://vierzig-theme-demo.netlify.com/)
+View the live [Demo](https://vierzig-theme-demo.netlify.com/) or the [source code for the demo](https://github.com/ASVBPREAUBV/vierzig-theme-demo)
 
 Change the Content here in the [Admin Interface](https://vierzig-theme-demo.netlify.com/admin)
 
@@ -35,16 +35,14 @@ After cloning Vierzig or adding it as a submodule, there are a few other things 
 
 ### Config File
 
-No Config Params file is needed.
+No Config Params are needed starting.
 
-TODO list all available params
+For all possible Config Params you can look [here](https://github.com/ASVBPREAUBV/vierzig-theme-demo/blob/master/config.toml)
 
 ### Contact form
 
 This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email.
 Visitors can send you up to 1,000 emails per month for free.
-
-## You ca
 
 ## Contributing
 
