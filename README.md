@@ -1,10 +1,12 @@
 # Vierzig Theme Demo
 
-This Repo is the Demo Page for [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)
+This Repo is the [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)
 
 View the live [Demo](https://vierzig-theme-demo.netlify.com/)
 
 Change the Content here in the [Admin Interface](https://vierzig-theme-demo.netlify.com/admin)
+
+The [Demo](https://vierzig-theme-demo.netlify.com/) is also an example of a live site running on Netifly.
 
 
 ## Installation
