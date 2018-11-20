@@ -1,12 +1,15 @@
+{{ define "main"}}
+
 {{ partial "banner.html" . }}
 
-{{ define "main"}}
 {{ range .Pages }}
 
 {{ partial "tile.html" . }}
 
 {{ end }}
-{{ end }}
 
 {{ partial "contact.html" . }}
 {{ partial "footer.html" . }}
+
+{{ end }}
+
