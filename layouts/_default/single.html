@@ -1,9 +1,9 @@
 {{ define "main"}}
 
-<p> singleView</p>
+
 
 {{ "<!-- SINGLE VIEW --> " | safeHTML }}
-<!-- div id="wrapper">
+<div id="wrapper">
 
     {{ partial "nav.html" . }}
 
@@ -15,7 +15,7 @@
                         <h1>{{ .Title}}</h1>
                     </header>
                     {{ if .Params.image }}
-                        <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span>
+                        <!--span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span-->
                     {{ end }}
                     {{ .Content }}
                 </div>
@@ -26,6 +26,6 @@
     {{ if .Site.Params.footer.enable }}
         {{ partial "footer.html" . }}
     {{ end }}
-</div-->
+</div>
 
 {{ end }}
