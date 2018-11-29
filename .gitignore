@@ -1,3 +1,4 @@
 backups/
 .idea
 .DS_Store
+static/css/main.css.map
