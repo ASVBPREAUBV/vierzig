@@ -11,6 +11,9 @@ The [Demo](https://vierzig-theme-demo.netlify.com/) is also an example of a live
 
 ## Installation
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?https://github.com/ASVBPREAUBV/vierzig)
+
+
 Create a new Hugo Site and inside the site directory run the following commands:
 
     $ cd themes
