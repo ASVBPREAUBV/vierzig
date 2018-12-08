@@ -62,3 +62,10 @@ Thanks to:
 - MarcusVirg from [theme forty](//github.com/MarcusVirg/forty) for creating the hugo theme
 - AJ from [HTML5 UP](https://html5up.net/) for creating the theme
 - [Bjørn Erik Pedersen](https://github.com/bep), [Steve Francia](//github.com/spf13), [digitalcraftsman](//github.com/digitalcraftsman), and others for creating and maintaining Hugo.
+
+## TODO
+
+check which workflow to use
+
+1. Webpack & postcss & cssnext
+2. stylis
