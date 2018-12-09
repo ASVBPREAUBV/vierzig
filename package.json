@@ -4,8 +4,12 @@
   "description": "This Repo contains the [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)",
   "main": "",
   "scripts": {
-    "test": "just for postcss-test"
+    "css": "./node_modules/.bin/grunt postcss"
   },
   "author": "paul@paul-mayer.eu",
-  "license": "Creative Commons Attribution 3.0"
+  "license": "Creative Commons Attribution 3.0",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-postcss": "^0.9.0"
+  }
 }
