@@ -1,10 +1,3 @@
-:root {
-    --color-red: #FF6138;
-    --color-yellow: #FFFF9D;
-    --color-light-green: #BEEB9F;
-    --color-mid-green: #79BD8F;
-    --color-dark-green: #00A388;
-}
 
 body {
     background-color: var(--color-red);
