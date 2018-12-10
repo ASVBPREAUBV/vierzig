@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
             scripts: {
-                files: ['static/css4/**/*.css'],
+                files: ['static/css4/*.css'],
                 tasks: ['postcss'],
                 options: {
                     interrupt: true,
@@ -28,5 +28,8 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-watch');
+
+    grunt.registerTask('dev', ['postcss','watch']);
+
 
 };

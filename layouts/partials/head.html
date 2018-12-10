@@ -7,7 +7,7 @@
 	{{ .Hugo.Generator }}
 	<title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
 	{{ "<!-- Stylesheets -->" | safeHTML }}
-	<link rel="stylesheet" href="{{ "css/main.css" | absURL}}"/>
+	<link rel="stylesheet" href="{{ "css/style.css" | absURL}}"/>
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/ie9.css" }}"/><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/ie8.css" }}"/><![endif]-->
 
@@ -16,7 +16,7 @@
 	{{ end }}
 
 	{{ "<!-- Custom Fonts -->" | safeHTML }}
-	<link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
+	<!--link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css"-->
 
 	{{ with .Site.Params.favicon }}
 	<link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">

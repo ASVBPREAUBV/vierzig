@@ -4,7 +4,8 @@
   "description": "This Repo contains the [Vierzig Theme](https://github.com/ASVBPREAUBV/vierzig) (a [Hugo](https://gohugo.io/) Theme)",
   "main": "",
   "scripts": {
-    "dev": "./node_modules/.bin/grunt watch"
+    "css": "./node_modules/.bin/grunt postcss",
+    "dev": "./node_modules/.bin/grunt dev"
   },
   "author": "paul@paul-mayer.eu",
   "license": "Creative Commons Attribution 3.0",
