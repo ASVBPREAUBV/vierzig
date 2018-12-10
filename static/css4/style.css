@@ -4,10 +4,11 @@
     display: flex;
 }
 
+
 /* Testing cssnext */
 
 .cssnext {
-    background: color(red alpha(-10%));
+    background: color(orange alpha(-10%));
 }
 
 /* Testing precss */
