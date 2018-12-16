@@ -5,10 +5,19 @@ module.exports = function (grunt) {
         watch: {
             scripts: {
                 files: ['static/css4/*.css'],
-                tasks: ['postcss'],
+                tasks: ['css'],
                 options: {
                     interrupt: true,
                 },
+            },
+        },
+        concat_css: {
+            options: {
+                // Task-specific options go here.
+            },
+            all: {
+                src: ["static/css4/**/*.css"],
+                dest: "static/css/styles.css"
             },
         },
         postcss: {
@@ -18,7 +27,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: 'static/css4/style.css',
+                src: 'static/css/style.css',
                 dest: 'static/css/style.css',
             }
 
@@ -28,8 +37,11 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-concat-css');
 
-    grunt.registerTask('dev', ['postcss','watch']);
+    // one grunt task to only run css-related stuff
+    grunt.registerTask('css', ['concat_css', 'postcss']);
+    grunt.registerTask('dev', ['css', 'watch']);
 
 
 };
