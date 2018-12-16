@@ -17,7 +17,7 @@ module.exports = function (grunt) {
             },
             all: {
                 src: ["static/css4/**/*.css"],
-                dest: "static/css/styles.css"
+                dest: "static/css/style_css4.css"
             },
         },
         postcss: {
@@ -27,7 +27,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: 'static/css/style.css',
+                src: 'static/css/style_css4.css',
                 dest: 'static/css/style.css',
             }
 
