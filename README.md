@@ -4,14 +4,14 @@ This Repo contains the [vierzig theme](https://github.com/ASVBPREAUBV/vierzig) (
 
 View the live [demo](https://vierzig-theme-demo.netlify.com/) or the [source code for the demo](https://github.com/ASVBPREAUBV/vierzig-theme-demo)
 
-Change the Content here in the [admin Interface](https://vierzig-theme-demo.netlify.com/admin)
+Change the content here in the [admin Interface](https://vierzig-theme-demo.netlify.com/admin)
 
 The [demo](https://vierzig-theme-demo.netlify.com/) is also an example of a live site running on [netifly](https://www.netlify.com/).
 
 
 ## Installation
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?https://github.com/ASVBPREAUBV/vierzig-theme-demo)
+[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?https://github.com/ASVBPREAUBV/vierzig-theme-demo)
 
 
 Create a new Hugo Site and inside the site directory run the following commands:
