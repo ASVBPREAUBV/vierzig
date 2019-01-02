@@ -6,7 +6,7 @@ View the live [Demo](https://vierzig-theme-demo.netlify.com/) or the [source cod
 
 Change the Content here in the [Admin Interface](https://vierzig-theme-demo.netlify.com/admin)
 
-The [Demo](https://vierzig-theme-demo.netlify.com/) is also an example of a live site running on Netifly.
+The [Demo](https://vierzig-theme-demo.netlify.com/) is also an example of a live site running on [Netifly](https://www.netlify.com/).
 
 
 ## Installation
