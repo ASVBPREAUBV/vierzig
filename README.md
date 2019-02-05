@@ -41,7 +41,7 @@ After cloning Vierzig or adding it as a submodule, there are a few other things 
 
 ### Config File
 
-No Config Params are needed starting.
+No Config Params are needed for getting started.
 
 For all possible Config Params you can look [here](https://github.com/ASVBPREAUBV/vierzig-theme-demo/blob/master/config.toml)
 
