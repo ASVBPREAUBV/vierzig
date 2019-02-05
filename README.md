@@ -13,11 +13,14 @@ The [Demo](https://vierzig-theme-demo.netlify.com/) is also an example of a live
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?https://github.com/ASVBPREAUBV/vierzig-theme-demo)
 
+or
 
 Create a new Hugo Site and inside the site directory run the following commands:
 
     $ cd themes
     $ git clone https://github.com/ASVBPREAUBV/vierzig
+
+or
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
