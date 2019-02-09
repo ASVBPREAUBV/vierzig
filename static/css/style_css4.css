@@ -5,6 +5,22 @@
     --color-mid-green: #79BD8F;
     --color-dark-green: #00A388;
 }
-body {
-    background-color: var(--color-red);
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header' 'menu' 'footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
 }
