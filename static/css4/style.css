@@ -10,7 +10,8 @@ footer {
     grid-area: footer;
 }
 
-.grid-container {
+.global-containers {
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-areas: 'header' 'menu' 'footer';
     grid-gap: 10px;

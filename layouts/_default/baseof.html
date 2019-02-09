@@ -3,16 +3,16 @@
 {{ partial "head.html" . }}
 <body>
 
-<header>
+<header class="global-containers">
     {{ partial "header.html" . }}
 </header>
 
-<main>
+<main class="global-containers">
     {{ block "main" . }}
     {{end}}
 </main>
 
-<footer>
+<footer class="global-containers">
     {{ partial "footer.html" . }}
 </footer>
 
