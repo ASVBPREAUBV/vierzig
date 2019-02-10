@@ -30,8 +30,26 @@ body {
     background-color: #AEC7D6;
     padding: 10px;
 }
-header {
+header .left{
+    grid-area: left;
+}
 
-    background-color: #AEC7D6;
+header .right{
+    grid-area: right;
+}
 
+
+.header-containers {
+    display: grid;
+    grid-template-areas: 'left' 'right';
+    grid-gap: 10px;
+}
+
+
+header a{
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 4.05px;
+    line-height: 95px;
+    text-transform: uppercase;
 }
