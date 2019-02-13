@@ -34,6 +34,7 @@ a {
     letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .inverted {
