@@ -21,5 +21,4 @@ body {
     grid-template-areas: 'header' 'menu' 'footer';
     grid-gap: 10px;
     background-color: #AEC7D6;
-    padding: 10px;
 }
