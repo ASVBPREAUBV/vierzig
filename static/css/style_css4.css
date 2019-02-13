@@ -30,7 +30,6 @@ body {
     background-color: #AEC7D6;
 }
 header .header {
-    height: 64px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -41,30 +40,35 @@ header .header {
 
 header .left {
     flex: 1 1 auto;
-    height: 64px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
-    align-content: stretch;
+    align-content: center;
 }
 
 header .right {
     flex: 0 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
 }
 
 a {
+    padding: 10px;
     font-size: 18px;
     color: #001F2E;
-    letter-spacing: 4.05px;
-    line-height: 95px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .inverted {
-    height: 100%;
+    padding: 10px;
     background-color: #001F2E;
     color: #AEC7D6;
 }

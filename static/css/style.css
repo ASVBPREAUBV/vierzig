@@ -23,7 +23,6 @@ body {
     background-color: #AEC7D6;
 }
 header .header {
-    height: 64px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -47,7 +46,6 @@ header .left {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
-    height: 64px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -63,27 +61,44 @@ header .left {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    -ms-flex-line-pack: stretch;
-        align-content: stretch;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 header .right {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 a {
+    padding: 10px;
     font-size: 18px;
     color: #001F2E;
-    letter-spacing: 4.05px;
-    line-height: 95px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .inverted {
-    height: 100%;
+    padding: 10px;
     background-color: #001F2E;
     color: #AEC7D6;
 }
