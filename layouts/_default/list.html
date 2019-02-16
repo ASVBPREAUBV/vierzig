@@ -6,9 +6,12 @@
     <section>
         <a href="{{ .URL }}" class="image">
             <!--img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" /-->
-            <!--img src="{{ (.resources.ByType "image").Name | base64Encode }}"-->
-            <!---{{ (Site.Resources.ByType "image").Name  }}-->
         </a>
+        <div>
+            {{range .Resources}}
+            {{.}}
+            {{end}}
+        </div>
         <div class="content">
             <div class="inner">
                 <header class="major">
