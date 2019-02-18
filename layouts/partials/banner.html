@@ -1,7 +1,22 @@
 {{ "<!-- Banner -->" | safeHTML}}
 {{$banner := .Site.Params.Banner}}
+{{ if $banner.show }}
 <section id="banner" class="major">
     <div class="inner">
+
+        <span class="image">
+            {{if isset $banner "image" }}
+                {{ $imageUrl := path.Join .Site.Params.baseURL "/img/" $banner.background}}
+            {{$imageUrl}}
+            <img src="{{$imageUrl}}" alt=""/>
+            {{else}}
+             {{ $imageUrl := path.Join .Site.Params.baseURL "/img/bg.jpg"}}
+            <img src="{{$imageUrl}}" alt=""/>
+            {{end}}
+            {{with $banner.background}}
+
+            {{end}}
+        </span>
         <header class="major">
             {{ with $banner.title }}
             <h1>{{.}}</h1>
@@ -27,3 +42,4 @@
         </div>
     </div>
 </section>
+{{end}}

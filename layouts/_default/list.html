@@ -2,16 +2,13 @@
 
 <section class="spotlights">
 
+    {{ partial "banner.html" . }}
+
     {{ range .Pages }}
     <section>
         <a href="{{ .URL }}" class="image">
             <!--img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" /-->
         </a>
-        <div>
-            {{range .Resources}}
-            {{.}}
-            {{end}}
-        </div>
         <div class="content">
             <div class="inner">
                 <header class="major">
