@@ -1,45 +1,45 @@
 {{ "<!-- Banner -->" | safeHTML}}
 {{$banner := .Site.Params.Banner}}
 {{ if $banner.show }}
-<section id="banner" class="major">
-    <div class="inner">
-
-        <span class="image">
-            {{if isset $banner "image" }}
-                {{ $imageUrl := path.Join .Site.Params.baseURL "/img/" $banner.background}}
-            {{$imageUrl}}
-            <img src="{{$imageUrl}}" alt=""/>
+<section class="banner">
+    <div class="content">
+        <header>
+            {{ with $banner.abovetitle }}
+            <h2>{{.}}</h2>
             {{else}}
-             {{ $imageUrl := path.Join .Site.Params.baseURL "/img/bg.jpg"}}
-            <img src="{{$imageUrl}}" alt=""/>
+            <p>Please define the Banner Subtitle</p>
             {{end}}
-            {{with $banner.background}}
-
-            {{end}}
-        </span>
-        <header class="major">
             {{ with $banner.title }}
             <h1>{{.}}</h1>
             {{else}}
             <h1>Please define a Banner Title</h1>
             {{end}}
-        </header>
-        <div class="content">
             {{ with $banner.subtitle }}
-            <p>{{.}}</p>
+            <h2>{{.}}</h2>
             {{else}}
             <p>Please define the Banner Subtitle</p>
             {{end}}
-            <ul class="actions">
-                <li>
-                    {{ with $banner.buttonText }}
-                    <a href="{{$banner.link}}" class="button next scrolly">{{.}}</a>
-                    {{else}}
-                    <a href="#" class="button next scrolly">Please define the Banner Button Text</a>
-                    {{end}}
-                </li>
-            </ul>
-        </div>
+        </header>
+        <!--ul class="actions">
+            <li>
+                {{ with $banner.buttonText }}
+                <a href="{{$banner.link}}" class="button next scrolly">{{.}}</a>
+                {{else}}
+                <a href="#" class="button next scrolly">Please define the Banner Button Text</a>
+                {{end}}
+            </li>
+        </ul-->
     </div>
+    {{if isset $banner "image" }}
+    {{ $imageUrl := path.Join .Site.Params.baseURL "/img/" $banner.background}}
+    {{$imageUrl}}
+    <img src="{{$imageUrl}}" alt=""/>
+    {{else}}
+    {{ $imageUrl := path.Join .Site.Params.baseURL "/img/pawel-czerwinski-1343790-unsplash.jpg"}}
+    <img src="{{$imageUrl}}" alt=""/>
+    {{end}}
+    {{with $banner.background}}
+
+    {{end}}
 </section>
 {{end}}
