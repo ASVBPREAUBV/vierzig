@@ -19,6 +19,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-areas: 'header' 'menu' 'footer';
-    grid-gap: 10px;
+    /*grid-gap: 10px;*/
     background-color: #AEC7D6;
 }
