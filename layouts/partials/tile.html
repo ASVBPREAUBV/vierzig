@@ -6,6 +6,13 @@
             </span>
         <header class="major">
             <h3>
+                {{ with .Resources.ByType "image" }}
+                <div class="Image">
+                    {{ range . }}
+                    <img src="{{ .RelPermalink }}">
+                    {{ end }}
+                </div>
+                {{ end }}
                 {{.}}
                 {{.Resources}}
                 <a href="{{ .URL }}" class="link">
