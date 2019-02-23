@@ -1,0 +1,18 @@
+article.post-preview {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    max-width: 150px;
+}
+
+article.post-preview .image {
+    flex: 1;
+}
+
+article.post-preview .text {
+    flex: 1;
+}

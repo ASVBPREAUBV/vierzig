@@ -5,14 +5,6 @@
     --color-mid-green: #79BD8F;
     --color-dark-green: #00A388;
 }
-article .post-preview {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: center;
-}
 .banner {
     width: 100vw;
     height: 90vh;
@@ -125,4 +117,22 @@ a {
     padding: 10px;
     background-color: #001F2E;
     color: #AEC7D6;
+}
+article.post-preview {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    max-width: 150px;
+}
+
+article.post-preview .image {
+    flex: 1;
+}
+
+article.post-preview .text {
+    flex: 1;
 }

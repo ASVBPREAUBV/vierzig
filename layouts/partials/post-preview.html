@@ -1,10 +1,10 @@
 {{ "<!-- Header -->" | safeHTML }}
 <article class="post-preview">
-            <span class="image">
-                <img src="https://via.placeholder.com/150" alt=""/>
-            </span>
-    <header class="major">
-        <h3>
+    <span class="image">
+        <img src="https://via.placeholder.com/150" alt=""/>
+    </span>
+    <div class="text">
+        <h2>
             {{ with .Resources.ByType "image" }}
             <div class="Image">
                 {{ range . }}
@@ -12,12 +12,10 @@
                 {{ end }}
             </div>
             {{ end }}
-            {{.}}
-            {{.Resources}}
             <a href="{{ .URL }}" class="link">
                 {{ .Title }}
             </a>
-        </h3>
+        </h2>
         <p>{{ .Description }}</p>
-    </header>
+    </div>
 </article>
