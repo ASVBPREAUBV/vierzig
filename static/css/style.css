@@ -1,3 +1,22 @@
+article .post-preview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: center;
+        align-content: center;
+}
 .banner {
     width: 100vw;
     height: 90vh;
@@ -154,30 +173,6 @@ a {
     cursor: pointer;
 }
 
-.inverted {
-    padding: 10px;
-    background-color: #001F2E;
-    color: #AEC7D6;
-}
-section .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    -ms-flex-line-pack: center;
-        align-content: center;
-}
 .inverted {
     padding: 10px;
     background-color: #001F2E;

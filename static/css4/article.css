@@ -1,13 +1,8 @@
-section .header {
+article .post-preview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: center;
-}
-.inverted {
-    padding: 10px;
-    background-color: #001F2E;
-    color: #AEC7D6;
 }
