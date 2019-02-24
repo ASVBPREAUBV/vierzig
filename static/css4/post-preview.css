@@ -6,7 +6,7 @@ article.post-preview {
     justify-content: center;
     align-items: flex-start;
     align-content: center;
-    max-height: 150px;
+    max-height: 300px;
     overflow: hidden;
 }
 
@@ -14,7 +14,7 @@ article.post-preview .image {
     flex: 1;
 }
 
-article.post-preview .image img{
+article.post-preview .image img {
     width: 100%;
 }
 
