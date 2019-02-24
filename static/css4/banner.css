@@ -4,7 +4,8 @@
     overflow: hidden;
 }
 
-.banner .content header {
+.banner header {
+    padding: 0;
     position: absolute;
     width: 100vw;
     height: 90vh;
@@ -16,7 +17,7 @@
     align-content: center;
 }
 
-.banner .content header h1 {
+.banner header h1 {
     font-size: 82px;
     color: #001F2E;
     letter-spacing: 39.72px;
@@ -29,7 +30,7 @@
 
 }
 
-.banner .content header h2 {
+.banner header h2 {
     font-weight: 500;
     font-size: 24px;
     color: #001F2E;

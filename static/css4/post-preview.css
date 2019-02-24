@@ -3,14 +3,19 @@ article.post-preview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     align-content: center;
-    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
 }
 
 article.post-preview .image {
     flex: 1;
+}
+
+article.post-preview .image img{
+    width: 100%;
 }
 
 article.post-preview .text {

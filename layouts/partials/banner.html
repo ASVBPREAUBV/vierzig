@@ -2,34 +2,32 @@
 {{$banner := .Site.Params.Banner}}
 {{ if $banner.show }}
 <section class="banner">
-    <div class="content">
-        <header>
-            {{ with $banner.abovetitle }}
-            <h2>{{.}}</h2>
+    <header>
+        {{ with $banner.abovetitle }}
+        <h2>{{.}}</h2>
+        {{else}}
+        <p>Please define the Banner Subtitle</p>
+        {{end}}
+        {{ with $banner.title }}
+        <h1>{{.}}</h1>
+        {{else}}
+        <h1>Please define a Banner Title</h1>
+        {{end}}
+        {{ with $banner.subtitle }}
+        <h2>{{.}}</h2>
+        {{else}}
+        <p>Please define the Banner Subtitle</p>
+        {{end}}
+    </header>
+    <!--ul class="actions">
+        <li>
+            {{ with $banner.buttonText }}
+            <a href="{{$banner.link}}" class="button next scrolly">{{.}}</a>
             {{else}}
-            <p>Please define the Banner Subtitle</p>
+            <a href="#" class="button next scrolly">Please define the Banner Button Text</a>
             {{end}}
-            {{ with $banner.title }}
-            <h1>{{.}}</h1>
-            {{else}}
-            <h1>Please define a Banner Title</h1>
-            {{end}}
-            {{ with $banner.subtitle }}
-            <h2>{{.}}</h2>
-            {{else}}
-            <p>Please define the Banner Subtitle</p>
-            {{end}}
-        </header>
-        <!--ul class="actions">
-            <li>
-                {{ with $banner.buttonText }}
-                <a href="{{$banner.link}}" class="button next scrolly">{{.}}</a>
-                {{else}}
-                <a href="#" class="button next scrolly">Please define the Banner Button Text</a>
-                {{end}}
-            </li>
-        </ul-->
-    </div>
+        </li>
+    </ul-->
     {{if isset $banner "image" }}
     {{ $imageUrl := path.Join .Site.Params.baseURL "/img/" $banner.background}}
     {{$imageUrl}}

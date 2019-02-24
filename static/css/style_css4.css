@@ -11,7 +11,8 @@
     overflow: hidden;
 }
 
-.banner .content header {
+.banner header {
+    padding: 0;
     position: absolute;
     width: 100vw;
     height: 90vh;
@@ -23,7 +24,7 @@
     align-content: center;
 }
 
-.banner .content header h1 {
+.banner header h1 {
     font-size: 82px;
     color: #001F2E;
     letter-spacing: 39.72px;
@@ -36,7 +37,7 @@
 
 }
 
-.banner .content header h2 {
+.banner header h2 {
     font-weight: 500;
     font-size: 24px;
     color: #001F2E;
@@ -123,14 +124,19 @@ article.post-preview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     align-content: center;
-    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
 }
 
 article.post-preview .image {
     flex: 1;
+}
+
+article.post-preview .image img{
+    width: 100%;
 }
 
 article.post-preview .text {
