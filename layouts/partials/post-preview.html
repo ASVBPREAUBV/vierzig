@@ -1,21 +1,16 @@
 {{ "<!-- Header -->" | safeHTML }}
 <article class="post-preview">
-    <span class="image">
-        <img src="https://via.placeholder.com/150" alt=""/>
-    </span>
+    {{ with .Resources.ByType "image" }}
+    {{range . }}
+    {{if .}}
+    <img src="{{ .RelPermalink }}">
+    {{else}}
+    <img src="https://via.placeholder.com/150" alt=""/>
+    <li>{{.Title}}</li>
+    {{end}}
+    {{end}}
+    {{ end }}
     <div class="text">
-        <h2>
-            {{ with .Resources.ByType "image" }}
-            <div class="Image">
-                {{ range . }}
-                <img src="{{ .RelPermalink }}">
-                {{ end }}
-            </div>
-            {{ end }}
-            <a href="{{ .URL }}" class="link">
-                {{ .Title }}
-            </a>
-        </h2>
-        <p>{{ .Description }}</p>
+        <h2>{{ .Description }}</h2>
     </div>
 </article>

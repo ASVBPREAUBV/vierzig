@@ -10,12 +10,8 @@ article.post-preview {
     overflow: hidden;
 }
 
-article.post-preview .image {
+article.post-preview img {
     flex: 1;
-}
-
-article.post-preview .image img {
-    width: 100%;
 }
 
 article.post-preview .text {
