@@ -1,16 +1,14 @@
-{{ "<!-- Header -->" | safeHTML }}
 <article class="post-preview">
-    {{ with .Resources.ByType "image" }}
-    {{range . }}
-    {{if .}}
-    <img src="{{ .RelPermalink }}">
-    {{else}}
-    <img src="https://via.placeholder.com/150" alt=""/>
-    <li>{{.Title}}</li>
-    {{end}}
-    {{end}}
+
+    {{ $imgLink := "https://via.placeholder.com/1000" }}
+
+    {{ with .Resources.GetMatch "images/*" }}
+    {{ $imgLink =  .RelPermalink }}
     {{ end }}
+
+    <img src="{{ $imgLink }}">
     <div class="text">
-        <h2>{{ .Description }}</h2>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
     </div>
 </article>

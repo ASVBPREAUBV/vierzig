@@ -2,6 +2,8 @@
 
 {{ partial "banner.html" . }}
 
+{{ "<!-- Index Pages Range -->" | safeHTML }}
+
 {{ range .Pages }}
 
 {{ partial "post-preview.html" . }}
