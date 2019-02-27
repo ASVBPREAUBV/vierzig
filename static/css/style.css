@@ -53,7 +53,7 @@
 }
 
 .banner img {
-    height: 100%;
+    width: 100%;
 }
 header {
     grid-area: header;
