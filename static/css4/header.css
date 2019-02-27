@@ -1,4 +1,4 @@
-header .header {
+header.site-header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@ header .header {
     align-content: center;
 }
 
-header .left {
+header.site-header .left {
     flex: 1 1 auto;
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@ header .left {
     align-content: center;
 }
 
-header .right {
+header.site-header .right {
     flex: 0 1 auto;
     display: flex;
     flex-direction: row;

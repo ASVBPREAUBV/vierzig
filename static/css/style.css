@@ -78,7 +78,7 @@ body {
     /*grid-gap: 10px;*/
     background-color: #AEC7D6;
 }
-header .header {
+header.site-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -98,7 +98,7 @@ header .header {
         align-content: center;
 }
 
-header .left {
+header.site-header .left {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
@@ -121,7 +121,7 @@ header .left {
         align-content: center;
 }
 
-header .right {
+header.site-header .right {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
