@@ -4,7 +4,7 @@ article.post-preview {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     align-content: center;
     max-height: 300px;
     overflow: hidden;
@@ -12,6 +12,7 @@ article.post-preview {
 
 article.post-preview img {
     flex: 1;
+    overflow: hidden;
 }
 
 article.post-preview .text {

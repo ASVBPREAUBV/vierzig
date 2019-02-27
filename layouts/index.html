@@ -4,7 +4,7 @@
 
 {{ "<!-- Index Pages Range -->" | safeHTML }}
 
-{{ range .Pages }}
+{{ range sort .Pages "Weight" "asc" }}
 
 {{ partial "post-preview.html" . }}
 
