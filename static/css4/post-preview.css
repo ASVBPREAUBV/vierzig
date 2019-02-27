@@ -13,8 +13,26 @@ article.post-preview {
 article.post-preview img {
     flex: 1;
     overflow: hidden;
+    height: 300px;
 }
 
 article.post-preview .text {
     flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #AEC7D6;
+    font-family: 'Montserrat', sans-serif;
 }
+
+article.post-preview .text h2{
+    font-size: 24px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #001F2E;
+    font-family: 'Montserrat', sans-serif;
+}
+
