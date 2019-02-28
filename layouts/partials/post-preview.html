@@ -3,10 +3,11 @@
     {{ $imgLink := "https://via.placeholder.com/1000" }}
 
     {{ with .Resources.GetMatch "images/*" }}
-    {{ $imgLink =  .RelPermalink }}
+    {{ $imgLink = .RelPermalink }}
     {{ end }}
-
-    <img src="{{ $imgLink }}">
+    <div class="image">
+        <img src="{{ $imgLink }}">
+    </div>
     <div class="text">
         <h2>{{ .Title }}</h2>
         <p>{{ .Description }}</p>
