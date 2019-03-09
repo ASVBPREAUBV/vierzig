@@ -1,4 +1,5 @@
 header.site-header {
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,6 +9,7 @@ header.site-header {
 }
 
 header.site-header .left {
+    height: 100%;
     flex: 1 1 auto;
     display: flex;
     flex-direction: row;
@@ -17,7 +19,30 @@ header.site-header .left {
     align-content: center;
 }
 
+header.site-header .left a {
+    font-size: 18px;
+    color: #001F2E;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header.site-header .left .logo {
+    height: inherit;
+
+}
+
+
+header.site-header .left .logo span {
+    padding: 0 10px;
+    background-color: #001F2E;
+    color: #AEC7D6;
+    height: inherit;
+}
+
 header.site-header .right {
+    height: 100%;
     flex: 0 1 auto;
     display: flex;
     flex-direction: row;
@@ -27,18 +52,4 @@ header.site-header .right {
     align-content: center;
 }
 
-a {
-    padding: 10px;
-    font-size: 18px;
-    color: #001F2E;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-.inverted {
-    padding: 10px;
-    background-color: #001F2E;
-    color: #AEC7D6;
-}

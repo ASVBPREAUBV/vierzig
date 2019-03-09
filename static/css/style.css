@@ -72,7 +72,7 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    grid-template-rows: 64px 80vh 20rem;
+    grid-template-rows: 48px 80vh 20rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header header header" "main main main main main" "footer footer footer footer footer";
     /*grid-gap: 10px;*/
@@ -121,6 +121,7 @@ header.site-footer {
         align-content: center;
 }
 header.site-header {
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -141,6 +142,7 @@ header.site-header {
 }
 
 header.site-header .left {
+    height: 100%;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
@@ -163,7 +165,30 @@ header.site-header .left {
         align-content: center;
 }
 
+header.site-header .left a {
+    font-size: 18px;
+    color: #001F2E;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header.site-header .left .logo {
+    height: inherit;
+
+}
+
+
+header.site-header .left .logo span {
+    padding: 0 10px;
+    background-color: #001F2E;
+    color: #AEC7D6;
+    height: inherit;
+}
+
 header.site-header .right {
+    height: 100%;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
@@ -184,22 +209,6 @@ header.site-header .right {
             align-items: stretch;
     -ms-flex-line-pack: center;
         align-content: center;
-}
-
-a {
-    padding: 10px;
-    font-size: 18px;
-    color: #001F2E;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.inverted {
-    padding: 10px;
-    background-color: #001F2E;
-    color: #AEC7D6;
 }
 article.post-preview {
     width: 100vw;
