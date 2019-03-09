@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    grid-template-rows: 38px 80vh 20rem;
+    grid-template-rows: 64px 80vh 20rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header header header" "main main main main main" "footer footer footer footer footer";
     /*grid-gap: 10px;*/
