@@ -124,15 +124,19 @@ header.site-header .left a {
 
 header.site-header .left .logo {
     height: inherit;
-
+    width: fit-content;
+    display: flex;
 }
 
-
-header.site-header .left .logo span {
-    padding: 0 10px;
+.inverted {
     background-color: #001F2E;
     color: #AEC7D6;
-    height: inherit;
+}
+
+header.site-header .left .logo div {
+    height: 100%;
+    text-align: center;
+    padding: 15px;
 }
 
 header.site-header .right {
@@ -144,6 +148,18 @@ header.site-header .right {
     justify-content: flex-start;
     align-items: stretch;
     align-content: center;
+}
+
+header.site-header .right a {
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #001F2E;
+    letter-spacing: 4px;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
 }
 article.post-preview {
     width: 100vw;
