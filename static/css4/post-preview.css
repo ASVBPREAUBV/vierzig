@@ -11,12 +11,11 @@ article.post-preview {
 }
 
 article.post-preview .image {
-    flex: 1;
     overflow: hidden;
-    height: 300px;
 }
 
 article.post-preview .text {
+    position: absolute;
     flex: 1;
     overflow: hidden;
     display: flex;
