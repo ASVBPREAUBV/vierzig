@@ -167,9 +167,7 @@ article.post-preview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    height: 100%;
     max-height: 500px;
     overflow: hidden;
 }
@@ -188,6 +186,8 @@ article.post-preview .text {
     font-size: 20px;
     background-color: #AEC7D6;
     font-family: 'Montserrat', sans-serif;
+    height: inherit;
+    opacity: 0.8;
 }
 
 article.post-preview .text h2 {
