@@ -53,7 +53,8 @@
 }
 
 .banner img {
-    width: 100%;
+    min-width: 110%;
+    min-height: 110%;
 }
 header {
     grid-area: header;
@@ -249,7 +250,7 @@ article.post-preview {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    max-height: 300px;
+    max-height: 500px;
     overflow: hidden;
 }
 
