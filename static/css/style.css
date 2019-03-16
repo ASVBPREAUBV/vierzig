@@ -247,15 +247,18 @@ article.post-preview {
     overflow: hidden;
 }
 
-article.post-preview .image {
+article.post-preview img {
+    position: absolute;
     overflow: hidden;
+    max-width: 110%;
+}
+
+article.post-preview .text-background {
+    background-color: #AEC7D6;
+    width: 50%;
 }
 
 article.post-preview .text {
-    position: absolute;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
     overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -264,9 +267,7 @@ article.post-preview .text {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 40px;
     font-size: 20px;
-    background-color: #AEC7D6;
     font-family: 'Montserrat', sans-serif;
     height: inherit;
     opacity: 0.8;

@@ -5,11 +5,12 @@
     {{ with .Resources.GetMatch "images/*" }}
     {{ $imgLink = .RelPermalink }}
     {{ end }}
-    <div class="image">
-        <img src="{{ $imgLink }}">
-    </div>
-    <div class="text">
-        <h2>{{ .Title }}</h2>
-        <p>{{ .Description }}</p>
+    <img src="{{ $imgLink }}">
+
+    <div class="text-background">
+        <div class="text">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Description }}</p>
+        </div>
     </div>
 </article>
