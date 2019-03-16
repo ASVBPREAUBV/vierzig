@@ -1,5 +1,12 @@
 <article class="post-preview">
 
+    <div class="text-wrapper">
+        <div class="text">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Description }}</p>
+        </div>
+    </div>
+
     {{ $imgLink := "https://via.placeholder.com/1000" }}
 
     {{ with .Resources.GetMatch "images/*" }}
@@ -7,10 +14,4 @@
     {{ end }}
     <img src="{{ $imgLink }}">
 
-    <div class="text-background">
-        <div class="text">
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Description }}</p>
-        </div>
-    </div>
 </article>

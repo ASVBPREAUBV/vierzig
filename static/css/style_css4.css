@@ -178,19 +178,23 @@ article.post-preview img {
     max-width: 110%;
 }
 
-article.post-preview .text-background {
+article.post-preview .text-wrapper {
+    z-index: 1;
     background-color: #AEC7D6;
     width: 50%;
+    opacity: 0.8;
+
 }
 
 article.post-preview .text {
+    margin: 20px;
+    padding: 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     height: inherit;
-    opacity: 0.8;
 }
 
 article.post-preview .text h2 {
