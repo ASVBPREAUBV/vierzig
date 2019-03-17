@@ -183,7 +183,8 @@ article.post-preview .text-wrapper {
     background-color: #AEC7D6;
     width: 50%;
     opacity: 0.8;
-
+    display: flex;
+    align-items: center;
 }
 
 article.post-preview .text {
