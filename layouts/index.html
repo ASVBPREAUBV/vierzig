@@ -4,9 +4,9 @@
 
 {{ "<!-- Index Pages Range -->" | safeHTML }}
 
-{{ range sort .Pages "Weight" "asc" }}
+{{ range $elem_index, $elem_val := sort .Pages "Weight" "asc" }}
 
-{{ partial "post-preview.html" . }}
+{{ partial "post-preview.html" $elem_val }}
 
 {{ end }}
 
