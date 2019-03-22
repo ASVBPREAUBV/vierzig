@@ -6,7 +6,7 @@
 
 {{ range $elem_index, $elem_val := sort .Pages "Weight" "asc" }}
 
-{{ partial "post-preview.html" $elem_val }}
+{{ partial "post-preview.html" (dict "context" . "index" $elem_index) }}
 
 {{ end }}
 

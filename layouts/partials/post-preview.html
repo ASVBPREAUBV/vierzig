@@ -1,7 +1,7 @@
-<article class="post-preview">
+<article class="post-preview {{if not (modBool .index 2) }}right{{ end }}">
 
     {{ $imgLink := "https://via.placeholder.com/1000" }}
-    {{ with .Resources.GetMatch "images/*" }}
+    {{ with .context.Resources.GetMatch "images/*" }}
     {{ $imgLink = .RelPermalink }}
     {{ end }}
 
@@ -9,8 +9,8 @@
 
     <div class="text-wrapper">
         <div class="text">
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Description }}</p>
+            <h2>{{ .context.Title }}</h2>
+            <p>{{ .context.Description }}</p>
         </div>
     </div>
 

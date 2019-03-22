@@ -247,6 +247,13 @@ article.post-preview {
     overflow: hidden;
 }
 
+article.post-preview.right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+
 article.post-preview img {
     position: absolute;
     overflow: hidden;
