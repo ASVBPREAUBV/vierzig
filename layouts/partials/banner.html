@@ -29,10 +29,10 @@
         </li>
     </ul-->
     {{if isset $banner "image" }}
-    {{ $imageUrl := path.Join .Site.Params.baseURL "/img/" $banner.background}}
-    {{$imageUrl}}
-    <img src="{{$imageUrl}}" alt=""/>
+    {{ $image := $banner.background.Resize "1500x q1" }}
+    <img src="{{$image.RelPermalink}}" alt=""/>
     {{else}}
+
     {{ $imageUrl := path.Join .Site.Params.baseURL "/img/pawel-czerwinski-1343790-unsplash.jpg"}}
     <img src="{{$imageUrl}}" alt=""/>
     {{end}}
