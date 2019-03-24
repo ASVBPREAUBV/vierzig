@@ -163,6 +163,7 @@ header.site-header .right a {
     padding: 15px;
 }
 article.post-preview {
+    position: relative;
     width: 100vw;
     display: flex;
     flex-direction: row;

@@ -1,4 +1,5 @@
 article.post-preview {
+    position: relative;
     width: 100vw;
     display: flex;
     flex-direction: row;
