@@ -2,7 +2,8 @@
 
     {{ $imgLink := "https://via.placeholder.com/1000" }}
     {{ with .context.Resources.GetMatch "images/*" }}
-    {{ $imgLink = .RelPermalink }}
+    {{ $image := .Resize "1500x q50" }}
+    {{ $imgLink = $image.RelPermalink }}
     {{ end }}
 
     <img src="{{ $imgLink }}">
