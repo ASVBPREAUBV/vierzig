@@ -3,3 +3,4 @@ backups/
 .DS_Store
 static/css/main.css.map
 node_modules
+resources/_*

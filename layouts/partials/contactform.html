@@ -1,0 +1,19 @@
+{{ "<!-- Contactform -->" | safeHTML}}
+<section id="contactform">
+    <form method="post" action="https://formspree.io/{{ .Site.Params.Contact.formEmail }}">
+        <section>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"/>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"/>
+        </section>
+        <section>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="6"></textarea>
+        </section>
+        <section>
+            <input type="submit" value="{{ .Site.Params.Contact.buttonSend }}" class="special"/>
+            <input type="reset" value="{{ .Site.Params.Contact.buttonClear }}"/>
+        </section>
+    </form>
+</section>
