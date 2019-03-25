@@ -75,6 +75,24 @@ body {
     /*grid-gap: 10px;*/
     background-color: #AEC7D6;
 }
+input {
+    background-color: #AEC7D6;
+    color:#000000;
+    font-family : inherit;
+    font-size   : 16px;
+    margin: 10px;
+    padding: 10px;
+    border: black solid 1px;
+    text-transform: uppercase;
+}
+
+textarea {
+    background-color: #AEC7D6;
+    color:white;
+    margin: 10px;
+    padding: 10px;
+    border: black solid 1px;
+}
 footer.site-footer{
     display: flex;
     flex-direction: row;
