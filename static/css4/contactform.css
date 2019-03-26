@@ -1,8 +1,9 @@
 input {
+    flex: 1;
     background-color: #AEC7D6;
-    color:#000000;
-    font-family : inherit;
-    font-size   : 16px;
+    color: black;
+    font-family: inherit;
+    font-size: 16px;
     margin: 10px;
     padding: 10px;
     border: black solid 1px;
@@ -10,10 +11,33 @@ input {
 }
 
 textarea {
+    width: 100%;
     background-color: #AEC7D6;
-    color:white;
+    color: black;
     margin: 10px;
     padding: 10px;
     border: black solid 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+
 }
 
+.contactform{
+    padding: 100px;
+}
+
+.contactform section {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+ }
+
+.contactform section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="submit"]{
+    flex: 5;
+}

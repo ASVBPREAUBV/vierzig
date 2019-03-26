@@ -1,5 +1,5 @@
 {{ "<!-- Contactform -->" | safeHTML}}
-<section id="contactform">
+<section class="contactform">
     <form method="post" action="https://formspree.io/{{ .Site.Params.Contact.formEmail }}">
         <section>
             <input type="text" placeholder="name" name="name"/>
@@ -9,8 +9,8 @@
             <textarea name="message" placeholder="message" rows="6"></textarea>
         </section>
         <section>
-            <input type="submit" value="{{ .Site.Params.Contact.buttonSend }}"/>
             <input type="reset" value="{{ .Site.Params.Contact.buttonClear }}"/>
+            <input type="submit" value="{{ .Site.Params.Contact.buttonSend }}"/>
         </section>
     </form>
 </section>
