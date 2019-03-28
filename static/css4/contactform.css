@@ -10,6 +10,11 @@ input {
     text-transform: uppercase;
 }
 
+input:focus {
+    outline-style: solid;
+    outline-color: black;
+}
+
 textarea {
     width: 100%;
     background-color: #AEC7D6;
@@ -22,15 +27,9 @@ textarea {
 
 }
 
-.contactform{
+.contactform {
     padding: 100px;
 }
-
-.contactform section {
-     width: 100%;
-     display: flex;
-     flex-direction: row;
- }
 
 .contactform section {
     width: 100%;
@@ -38,6 +37,12 @@ textarea {
     flex-direction: row;
 }
 
-input[type="submit"]{
+.contactform section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="submit"] {
     flex: 5;
 }

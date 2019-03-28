@@ -93,6 +93,11 @@ input {
     text-transform: uppercase;
 }
 
+input:focus {
+    outline-style: solid;
+    outline-color: black;
+}
+
 textarea {
     width: 100%;
     background-color: #AEC7D6;
@@ -105,20 +110,9 @@ textarea {
 
 }
 
-.contactform{
+.contactform {
     padding: 100px;
 }
-
-.contactform section {
-     width: 100%;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-orient: horizontal;
-     -webkit-box-direction: normal;
-         -ms-flex-direction: row;
-             flex-direction: row;
- }
 
 .contactform section {
     width: 100%;
@@ -131,7 +125,18 @@ textarea {
             flex-direction: row;
 }
 
-input[type="submit"]{
+.contactform section {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+input[type="submit"] {
     -webkit-box-flex: 5;
         -ms-flex: 5;
             flex: 5;
