@@ -21,3 +21,8 @@ body {
     /*grid-gap: 10px;*/
     background-color: #AEC7D6;
 }
+
+a {
+    text-decoration: none;
+
+}

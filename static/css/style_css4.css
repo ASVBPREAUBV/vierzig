@@ -75,6 +75,11 @@ body {
     /*grid-gap: 10px;*/
     background-color: #AEC7D6;
 }
+
+a {
+    text-decoration: none;
+    
+}
 input {
     flex: 1;
     background-color: #AEC7D6;

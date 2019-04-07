@@ -79,6 +79,11 @@ body {
     /*grid-gap: 10px;*/
     background-color: #AEC7D6;
 }
+
+a {
+    text-decoration: none;
+    
+}
 input {
     -webkit-box-flex: 1;
         -ms-flex: 1;
