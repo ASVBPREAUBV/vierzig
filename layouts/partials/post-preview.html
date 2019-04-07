@@ -8,11 +8,11 @@
 
     <img src="{{ $imgLink }}">
 
-    <div class="text-wrapper">
+    <a href="{{.context.Permalink}}" class="text-wrapper">
         <div class="text">
             <h2>{{ .context.Title }}</h2>
             <p>{{ .context.Description }}</p>
         </div>
-    </div>
+    </a>
 
 </article>
