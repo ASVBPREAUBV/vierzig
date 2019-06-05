@@ -32,8 +32,7 @@
     </ul-->
 
     {{ with $banner.backgroundImage }}
-    {{ $image := (.Resources.Match "ramiz-dedakovic-1332664-unsplash.jpg")}}
-    <img src="{{$image.RelPermalink}}" alt=""/>
+    <img src="{{$banner.backgroundImage}}" alt=""/>
     {{end}}
 </section>
 {{end}}
