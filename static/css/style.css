@@ -1,5 +1,5 @@
 .banner {
-    width: 100vw;
+    width: inherit;
     height: 90vh;
     overflow: hidden;
 }
@@ -53,8 +53,7 @@
 }
 
 .banner img {
-    min-width: 110%;
-    min-height: 110%;
+    width:100%;
 }
 header {
     grid-area: header;
