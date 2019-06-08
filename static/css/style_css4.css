@@ -4,6 +4,12 @@
     --color-light-green: #BEEB9F;
     --color-mid-green: #79BD8F;
     --color-dark-green: #00A388;
+    --color-black: #000000;
+    --color-blackish: #191E1E;
+    --color-blue-dark: #273D40;
+    --color-light-cameo: #D9B9A7;
+    --color-mid-brown: #734E39;
+    --color-mid-brown2: #A67E5B;
 }
 .banner {
     width: inherit;
@@ -26,7 +32,7 @@
 
 .banner header h1 {
     font-size: 35px;
-    color: #ffffff;
+    color: var(--color-blackish);
     letter-spacing: 39.72px;
     line-height: 95px;
     text-transform: uppercase;

@@ -19,7 +19,7 @@
 
 .banner header h1 {
     font-size: 35px;
-    color: #ffffff;
+    color: var(--color-blackish);
     letter-spacing: 39.72px;
     line-height: 95px;
     text-transform: uppercase;
