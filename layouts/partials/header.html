@@ -1,9 +1,9 @@
 <div class="left" href="#">
     <a class="logo">
-        <div class="inverted">vierzig</div>
-        <div>theme</div>
+        <div class="inverted">{{.Site.Params.Header.logoLeft}}</div>
+        <div>{{.Site.Params.Header.logoRight}}</div>
     </a>
 </div>
 <div class="right">
-    <a class="header-text right" href="#contact">contact</a>
+    <a class="header-text right" href="#contact">{{.Site.Params.Header.menu}}</a>
 </div>
