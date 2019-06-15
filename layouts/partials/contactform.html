@@ -6,7 +6,7 @@
             <input type="text" placeholder="email" name="email"/>
         </section>
         <section>
-            <textarea name="message" placeholder="message" rows="6"></textarea>
+            <textarea name="message" placeholder="{{ .Site.Params.Contact.messagePlaceHolder }}" rows="6"></textarea>
         </section>
         <section>
             <input type="reset" value="{{ .Site.Params.Contact.buttonClear }}"/>

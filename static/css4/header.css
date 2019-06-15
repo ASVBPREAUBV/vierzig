@@ -6,6 +6,8 @@ header.site-header {
     justify-content: flex-start;
     align-items: stretch;
     align-content: center;
+    background-color: var(--color-light-cameo);
+
 }
 
 header.site-header .left {
@@ -21,7 +23,7 @@ header.site-header .left {
 
 header.site-header .left a {
     font-size: 18px;
-    color: #001F2E;
+    color: var(--color-blackish);
     letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: none;
@@ -35,8 +37,8 @@ header.site-header .left .logo {
 }
 
 .inverted {
-    background-color: #001F2E;
-    color: #AEC7D6;
+    background-color: var(--color-blackish);
+    color: var(--color-light-cameo);
 }
 
 header.site-header .left .logo div {
@@ -61,7 +63,7 @@ header.site-header .right a {
     text-decoration: none;
     cursor: pointer;
     font-size: 18px;
-    color: #001F2E;
+    color: var(--color-blackish);
     letter-spacing: 4px;
     height: 100%;
     text-align: center;

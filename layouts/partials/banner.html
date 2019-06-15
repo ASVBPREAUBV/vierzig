@@ -28,17 +28,12 @@
             <a href="#" class="button next scrolly">Please define the Banner Button Text</a>
             {{end}}
         </li>
+            .Resize "1500x q1"
+
     </ul-->
-    {{if isset $banner "image" }}
-    {{ $image := $banner.background.Resize "1500x q1" }}
-    <img src="{{$image.RelPermalink}}" alt=""/>
-    {{else}}
 
-    {{ $imageUrl := path.Join .Site.Params.baseURL "/img/pawel-czerwinski-1343790-unsplash.jpg"}}
-    <img src="{{$imageUrl}}" alt=""/>
-    {{end}}
-    {{with $banner.background}}
-
+    {{ with $banner.backgroundImage }}
+    <img src="{{$banner.backgroundImage}}" alt=""/>
     {{end}}
 </section>
 {{end}}
