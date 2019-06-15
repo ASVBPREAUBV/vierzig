@@ -1,4 +1,5 @@
 {{ "<!-- Banner -->" | safeHTML}}
+<link rel="stylesheet" href="{{ "css4/banner.css" | absURL}}"/>
 {{$banner := .Site.Params.Banner}}
 {{ if $banner.show }}
 <section class="banner">
