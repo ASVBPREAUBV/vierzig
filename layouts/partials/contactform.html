@@ -1,4 +1,5 @@
 {{ "<!-- Contactform -->" | safeHTML}}
+<link rel="stylesheet" href="{{ "css/contactform.css" | absURL}}"/>
 <section class="contactform">
     <form method="post" action="https://formspree.io/{{ .Site.Params.Contact.Email.email}}">
         <section>

@@ -4,6 +4,8 @@
 
 {{ "<!-- Index Pages Range -->" | safeHTML }}
 
+<link rel="stylesheet" href="{{ "css/post-preview.css" | absURL}}"/>
+
 {{ range $elem_index, $elem_val := sort .Pages "Weight" "asc" }}
 
 {{ partial "post-preview.html" (dict "context" . "index" $elem_index) }}
