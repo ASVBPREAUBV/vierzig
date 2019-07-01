@@ -1,6 +1,6 @@
 {{ "<!-- Contactform -->" | safeHTML}}
 <link rel="stylesheet" href="{{ "css/contactform.css" | absURL}}"/>
-<section class="contactform">
+<section class="contactform"  id="contact">
     <form method="post" action="https://formspree.io/{{ .Site.Params.Contact.Email.email}}">
         <section>
             <input type="text" placeholder="name" name="name"/>
