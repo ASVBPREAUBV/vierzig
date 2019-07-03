@@ -17,6 +17,7 @@ article.post-preview img {
     position: absolute;
     overflow: hidden;
     max-width: 110%;
+    left: 0;
 }
 
 article.post-preview .text-wrapper {
