@@ -2,6 +2,7 @@
     width: inherit;
     height: 90vh;
     overflow: hidden;
+    background-color: var(--color-light-cameo);
 }
 
 .banner header {
@@ -22,7 +23,7 @@
 }
 
 .banner header h1 {
-    font-size: 35px;
+    font-size: 42px;
     color: var(--color-blackish);
     letter-spacing: 39.72px;
     line-height: 95px;
@@ -30,7 +31,7 @@
     text-align: center;
     max-width: 85vw;
     padding: 50px;
-    font-weight: 200;
+    font-weight: 700;
     overflow: hidden;
 }
 
@@ -47,4 +48,5 @@
 
 .banner img {
     width: 100%;
+    opacity: 0.4;
 }
