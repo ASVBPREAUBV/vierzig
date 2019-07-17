@@ -1,13 +1,19 @@
 {{ define "main"}}
+<link rel="stylesheet" type="text/css"  href="{{ "css/single.css" | absURL}}"/>
 
-<section>
-    <header>
-        <h1>{{ .Title}}</h1>
-    </header>
+<section class="single">
     {{ if .Params.image }}
     <!--span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span-->
     {{ end }}
     {{ .Content }}
+    <div>
+        {{ with .PrevInSection }}
+        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+        {{ with .NextInSection }}
+        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+    </div>
 </section>
 
 {{ end }}
