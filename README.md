@@ -17,9 +17,9 @@ or
 
 Create a new Hugo Site and inside the site directory run the following commands:
 
-    $ mkdir themes
-    $ cd themes
-    $ git clone https://github.com/ASVBPREAUBV/vierzig
+    mkdir themes
+    cd themes
+    git clone https://github.com/ASVBPREAUBV/vierzig
 
 or
 
